@@ -1,0 +1,9 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: jx-funtek
+pipelineConfig:
+  agent: {}
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: jx-funtek
+  pipelines: {}
